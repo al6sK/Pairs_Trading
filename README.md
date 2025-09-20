@@ -1,7 +1,8 @@
 # Pairs_Trading
-
-instructions to run the project.
-
+This project implements a simple pairs-trading workflow. 
+It downloads historical Adjusted Close prices, tests for cointegration between stock pairs, 
+computes price ratios and z-scores, generates trading signals, 
+runs a basic backtest and saves diagnostic plots (heatmap, ratio charts, z-score, signals).
 ---
 
 ## Description
